@@ -206,6 +206,7 @@ nav .feature {
   margin-top: 20px;
 }
 .container-footer {
+  z-index:-1;
   position: relative;
   display: grid;
   grid-template-columns: auto;
