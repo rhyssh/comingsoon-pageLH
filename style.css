@@ -293,7 +293,7 @@ nav .feature {
     z-index: 5;
   }
   .container-footer {
-    padding-top:300vh;
+    padding-top:500px;
 }
 @media screen and (max-width: 662px) {
   .content .container {
