@@ -292,13 +292,39 @@ nav .feature {
     color: #417196;
     z-index: 5;
   }
-  .container-footer {
-    padding-top:500px;
-  }
+  
 }
-@media screen and (max-width: 662px) {
+
+@media screen and (max-width: 733px) {
   .content .container {
     flex-direction: column;
+  }
+  .content {
+    /* display: grid; */
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  .content .container {
+    flex-direction: column;
+    padding-top: 400px;
+  }
+
+  .content .text-content {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    color: #417196;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .container-footer {
+    padding-top: 360px;
   }
 }
 
