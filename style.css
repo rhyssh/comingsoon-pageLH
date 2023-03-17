@@ -253,7 +253,7 @@ nav .feature {
 }
 
 /*------------ukuran tablet dan mobile------------------- */
-@media screen and (max-width: 663px) {
+@media screen and (max-width: 764px) {
   .hero-content h1 {
     text-shadow: -3px 3px 10px black;
   }
@@ -292,6 +292,8 @@ nav .feature {
     color: #417196;
     z-index: 5;
   }
+  .container-footer {
+    padding-top:100vh;
 }
 @media screen and (max-width: 662px) {
   .content .container {
