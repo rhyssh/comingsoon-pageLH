@@ -207,7 +207,7 @@ nav .feature {
 }
 .container-footer {
   z-index:-1;
-  position: relative;
+/*   position: relative; */
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -217,6 +217,7 @@ nav .feature {
 }
 
 .container-footer .quote {
+  position:relative;
   grid-area: quote;
   padding-bottom: 30px;
   /* margin-top: -20px; */
@@ -230,6 +231,7 @@ nav .feature {
 }
 
 .container-footer footer {
+  position:relative;
   grid-area: footer;
   display: flex;
   width: 100%;
